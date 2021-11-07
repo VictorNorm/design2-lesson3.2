@@ -1,0 +1,44 @@
+body {
+  background-color: #400e75;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper {
+  max-width: fit-content;
+}
+.wrapper h1,
+.wrapper h2 {
+  color: #f09b1d;
+}
+.wrapper h1 {
+  font-family: "Merriweather";
+}
+.wrapper h2 {
+  font-family: "Quattrocento";
+}
+.wrapper .firstCharacter {
+  font-size: 3rem;
+}
+
+.cta-1 {
+  background-color: #f09b1d;
+  width: 200px;
+  padding: 1rem;
+  border-radius: 25px;
+  border: 1px solid black;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cta-1:hover {
+  background-color: #f6c57d;
+}
+
+/*# sourceMappingURL=styles.css.map */
